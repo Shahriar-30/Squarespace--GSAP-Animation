@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+/* ======================= */
+#main{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 60px;
+}
+nav img{
+    width: 200px;
+}
+nav div{
+    text-transform: uppercase;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+nav div a{
+    color: white;
+    cursor: pointer;
+}
+nav div button{
+    padding: 8px 32px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.lastNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.txt{
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    margin-top: 6%;
+    z-index: 999;
+}
+.txt span{
+    font-size: 50px;
+    background: brown;
+    padding: 10px 30px;
+    border-radius: 50px;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.top_left{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+}
+.bottom_left{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+}
+.top_right{
+    position: absolute;
+    top: 15%;
+    right: 18%;
+}
+.bottom_right{
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+}
+.bottom{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 7px 20px;
+}
